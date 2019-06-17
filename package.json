@@ -1,0 +1,40 @@
+{
+  "name": "third-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "dev": "watchify js/main.js -o bundle.js -v",
+    "build": "browserify js/main.js -o bundle.js",
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.7.2",
+    "node-sass-import": "^1.1.1",
+    "onchange": "^3.3.0",
+    "uglify-es": "^3.3.9",
+    "watchify": "^3.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.12",
+    "canvas-text-wrapper": "^0.10.2",
+    "color-generator": "^0.1.0",
+    "dat.gui": "^0.7.1",
+    "eases": "^1.0.8",
+    "fs-extra": "^6.0.0",
+    "google-spreadsheet": "^2.0.3",
+    "node-random-name": "^1.0.1",
+    "pm2": "^2.10.3",
+    "pureimage": "^0.1.6",
+    "slugify": "^1.2.9",
+    "three": "^0.91.0"
+  }
+}
