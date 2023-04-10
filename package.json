@@ -30,7 +30,7 @@
     "dat.gui": "^0.7.1",
     "eases": "^1.0.8",
     "fs-extra": "^6.0.0",
-    "google-spreadsheet": "^2.0.3",
+    "google-spreadsheet": "^3.3.0",
     "node-random-name": "^1.0.1",
     "pm2": "^2.10.3",
     "pureimage": "^0.1.6",
